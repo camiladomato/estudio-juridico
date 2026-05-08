@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Paleta para Abogacía: Elegancia y Confianza */
+  --legal-blue: #0f172a;
+  --legal-gold: #c5a059;
+  --bg-light: #ffffff;
+  --text-main: #334155;
+  --text-header: #0f172a;
+  
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: var(--bg-light);
+  color: var(--text-main);
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-content: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+}
+
+/* Tipografías para títulos */
+h1, h2, h3 {
+  color: var(--text-header);
+  font-weight: 700;
+  letter-spacing: -0.025em;
+}
